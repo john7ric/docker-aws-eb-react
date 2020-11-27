@@ -12,3 +12,4 @@ FROM nginx
 
 WORKDIR /app
 COPY --from=0 /app/build /usr/share/nginx/html
+EXPOSE 80/tcp
