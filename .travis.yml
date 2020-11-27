@@ -10,12 +10,11 @@ before_install:
 script:
   - docker run -e CI=true john7ric/docker-react npm run test
 
-
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
   app: "docker-aws-eb-react"
-  environment: "DockerAwsEbReact-env"
+  env: "DockerAwsEbReact-env"
   bucket_name: "elasticbeanstalk-ap-south-1-438115268593"
   bucket_path: "docker-aws-eb-react"
   on:
