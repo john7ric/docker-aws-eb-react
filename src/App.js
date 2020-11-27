@@ -12,15 +12,15 @@ function App() {
         alt = "logo" / >
         <
         p >
-        RJ is Here, Lets go🚀🚀🚀. <
+        Test App🚀🚀🚀. <
         /p> <
         a className = "App-link"
         href = "https://reactjs.org"
         target = "_blank"
         rel = "noopener noreferrer" >
         Learn React <
-        /a> <
-        /header> <
+        /a> < /
+        header > <
         /div>
     );
 }
